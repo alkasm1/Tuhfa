@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تحف البيت الخليجي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Amiri', serif;
+      background-color: #fff8f0;
+      color: #3e2f1c;
+    }
+
+    header {
+      background: url('https://i.imgur.com/lDZI7qZ.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 1.8rem;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    header h1 {
+      position: relative;
+      z-index: 2;
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    header p {
+      position: relative;
+      z-index: 2;
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-right: 6px solid #a4794c;
+      padding-right: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 2px solid #e4d5c0;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 18px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      padding: 10px 16px;
+      margin: 0;
+      color: #3e2f1c;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f1e4d8;
+      padding: 30px 10px;
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>تحف البيت الخليجي</h1>
+    <p>في كل زاوية... تحفة تُروى</p>
+  </header>
+
+  <div class="container">
+    <h2 class="section-title">التصنيفات</h2>
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://i.imgur.com/4dY6fLB.jpg" alt="تحف الضيافة">
+        <h3>🏺 تحف الضيافة</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://i.imgur.com/DLALkGl.jpg" alt="رموز القوة">
+        <h3>🗡️ رموز القوة</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://i.imgur.com/oS1pTn8.jpg" alt="روحانية وأناقة">
+        <h3>📿 روحانية وأناقة</h3>
+      </div>
+
+      <div class="card">
+        <img src="https://i.imgur.com/6mDCBF5.jpg" alt="زينة البيت">
+        <h3>🖼️ زينة البيت</h3>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    تحف البيت الخليجي &copy; 2025 - منصة تجمع التراث بالجمال
+  </footer>
+
+</body>
+</html>
